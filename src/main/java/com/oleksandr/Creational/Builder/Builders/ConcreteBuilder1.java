@@ -2,7 +2,7 @@ package com.oleksandr.Creational.Builder.Builders;
 
 import com.oleksandr.Creational.Builder.Products.Product1;
 
-public class ConcreteBuilder1 implements Builder{
+public class ConcreteBuilder1 implements Builder<Product1> {
 
     private Product1 product1;
 
@@ -14,19 +14,24 @@ public class ConcreteBuilder1 implements Builder{
     @Override
     public void buildStepA() {
         System.out.println("Building step A");
+        product1.setPartA("Step A for Product1");
     }
 
     @Override
     public void buildStepB() {
         System.out.println("Building step B");
+        product1.setPartA("Step B for Product1");
     }
 
     @Override
     public void buildStepD() {
         System.out.println("Building step D");
+        product1.setPartA("Step D for Product1");
     }
 
-    public Product1 getProduct1() {
+    @Override
+    public Product1 getProduct() {
         return product1;
     }
+
 }

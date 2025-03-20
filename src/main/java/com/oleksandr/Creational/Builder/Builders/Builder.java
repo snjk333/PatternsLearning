@@ -1,8 +1,11 @@
 package com.oleksandr.Creational.Builder.Builders;
 
-public interface Builder {
+import com.oleksandr.Creational.Builder.Products.Product;
+
+public interface Builder <T extends Product> {
     void reset();
     void buildStepA();
     void buildStepB();
     void buildStepD();
+    T getProduct();
 }
