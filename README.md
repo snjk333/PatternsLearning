@@ -5,7 +5,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ## Creational Patterns
 ✅ Factory Method  
 ✅ Abstract Factory  
-❌ Builder  
+✅ Builder  
 ❌ Prototype  
 ❌ Singleton  
 
