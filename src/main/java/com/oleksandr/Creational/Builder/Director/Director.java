@@ -1,16 +1,17 @@
 package com.oleksandr.Creational.Builder.Director;
 
 import com.oleksandr.Creational.Builder.Builders.Builder;
+import com.oleksandr.Creational.Builder.Products.Product;
 
 
 public class Director {
-    private Builder builder;
+    private Builder<? extends Product> builder;
 
-    public Director(Builder builder) {
+    public Director(Builder<? extends Product> builder) {
         this.builder = builder;
     }
 
-    public void changeBuilder(Builder builder) {
+    public void changeBuilder(Builder<? extends Product> builder) {
         this.builder = builder;
     }
 

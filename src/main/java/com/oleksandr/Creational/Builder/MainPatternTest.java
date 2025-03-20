@@ -1,32 +1,25 @@
 package com.oleksandr.Creational.Builder;
 
-import com.oleksandr.Creational.Builder.Builders.Builder;
 import com.oleksandr.Creational.Builder.Builders.ConcreteBuilder1;
 import com.oleksandr.Creational.Builder.Builders.ConcreteBuilder2;
 import com.oleksandr.Creational.Builder.Director.Director;
-import com.oleksandr.Creational.Builder.Products.Product1;
-import com.oleksandr.Creational.Builder.Products.Product2;
+import com.oleksandr.Creational.Builder.Products.Product;
 
 public class MainPatternTest {
     public static void main(String[] args) {
-        var b = new ConcreteBuilder1();
-        var d = new Director(b);
 
-        d.makeSimpleObject();
-        Product1 firstP1 = b.getProduct1();
-        d.makeAdvancedObject();
-        Product1 secondP1 = b.getProduct1();
-        d.makeFullObject();
-        Product1 thirdP1 = b.getProduct1();
+        ConcreteBuilder1 builder1 = new ConcreteBuilder1(); //make concrete builder for products 1
+        Director director = new Director(builder1); // make director using builder1
 
-        var b2 = new ConcreteBuilder2();
-        d.changeBuilder(b2);
+        director.makeFullObject(); //director make an object using builder
+        Product product1 = builder1.getProduct(); // and we get object from builder
+        System.out.println(product1);
 
-        d.makeSimpleObject();
-        Product2 firstP2 = b2.getProduct2();
-        d.makeAdvancedObject();
-        Product2 secondP2 = b2.getProduct2();
-        d.makeFullObject();
-        Product2 thirdP2 = b2.getProduct2();
+        ConcreteBuilder2 builder2 = new ConcreteBuilder2();
+        director.changeBuilder(builder2);
+
+        director.makeAdvancedObject();
+        Product product2 = builder2.getProduct();
+        System.out.println(product2);
     }
 }
