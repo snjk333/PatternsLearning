@@ -9,12 +9,12 @@ public class Adapter implements ClientInterface{
     }
 
     @Override
-    public String method(String data) {
+    public String method(Integer data) {
         String specialData = convertToServiceFormat(data);
         return adaptee.serviceMethod(specialData);
     }
 
-    private String convertToServiceFormat(String data) {
-        return "Converted to serviceFormat: " + data;
+    private String convertToServiceFormat(Integer data) {
+        return "Converted to serviceFormat: " + Integer.toString(data);
     }
 }

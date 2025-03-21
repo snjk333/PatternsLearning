@@ -2,7 +2,7 @@ package com.oleksandr.Structural.Adapter;
 
 public class MainClass {
     public static void main(String[] args) {
-        String clientData = "I'm a client data.";
+        Integer clientData = 444;
         Service service = new Service();
         Adapter adapter = new Adapter(service);
 
