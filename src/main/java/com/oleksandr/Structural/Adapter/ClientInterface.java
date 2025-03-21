@@ -1,5 +1,5 @@
 package com.oleksandr.Structural.Adapter;
 
 public interface ClientInterface {
-    String method(String data);
+    String method(Integer data);
 }
