@@ -11,7 +11,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 
 ## Structural Patterns
 ✅ Adapter  
-❌ Bridge  
+✅ Bridge  
 ❌ Composite  
 ❌ Decorator  
 ❌ Facade  
