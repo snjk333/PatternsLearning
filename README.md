@@ -6,7 +6,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Factory Method  
 ✅ Abstract Factory  
 ✅ Builder  
-❌ Prototype  
+✅ Prototype  
 ❌ Singleton  
 
 ## Structural Patterns
