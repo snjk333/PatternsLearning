@@ -10,7 +10,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Singleton  
 
 ## Structural Patterns
-❌ Adapter  
+✅ Adapter  
 ❌ Bridge  
 ❌ Composite  
 ❌ Decorator  
