@@ -13,7 +13,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Adapter  
 ✅ Bridge  
 ❌ Composite  
-❌ Decorator  
+✅ Decorator  
 ❌ Facade  
 ❌ Flyweight  
 ❌ Proxy  
