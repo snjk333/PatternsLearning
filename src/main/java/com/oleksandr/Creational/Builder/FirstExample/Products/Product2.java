@@ -1,4 +1,4 @@
-package com.oleksandr.Creational.Builder.Products;
+package com.oleksandr.Creational.Builder.FirstExample.Products;
 
 public class Product2 extends Product{
     public Product2() {

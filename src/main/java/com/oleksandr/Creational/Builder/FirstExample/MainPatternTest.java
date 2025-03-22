@@ -1,9 +1,9 @@
-package com.oleksandr.Creational.Builder;
+package com.oleksandr.Creational.Builder.FirstExample;
 
-import com.oleksandr.Creational.Builder.Builders.ConcreteBuilder1;
-import com.oleksandr.Creational.Builder.Builders.ConcreteBuilder2;
-import com.oleksandr.Creational.Builder.Director.Director;
-import com.oleksandr.Creational.Builder.Products.Product;
+import com.oleksandr.Creational.Builder.FirstExample.Builders.ConcreteBuilder1;
+import com.oleksandr.Creational.Builder.FirstExample.Builders.ConcreteBuilder2;
+import com.oleksandr.Creational.Builder.FirstExample.Director.Director;
+import com.oleksandr.Creational.Builder.FirstExample.Products.Product;
 
 public class MainPatternTest {
     public static void main(String[] args) {
