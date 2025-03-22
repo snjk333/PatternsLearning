@@ -19,7 +19,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ❌ Proxy  
 
 ## Behavioral Patterns
-❌ Chain of Responsibility  
+✅ Chain of Responsibility  
 ❌ Command  
 ❌ Iterator  
 ❌ Mediator  
