@@ -14,7 +14,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Bridge  
 ❌ Composite  
 ✅ Decorator  
-❌ Facade  
+✅ Facade  
 ❌ Flyweight  
 ❌ Proxy  
 
