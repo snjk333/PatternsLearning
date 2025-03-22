@@ -1,4 +1,4 @@
-package com.oleksandr.Creational.Singleton;
+package com.oleksandr.Creational.Singleton.BasicRealization;
 
 public class MainClass {
     public static void main(String[] args) {
