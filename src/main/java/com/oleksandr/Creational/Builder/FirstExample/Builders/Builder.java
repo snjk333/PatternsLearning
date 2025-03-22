@@ -1,6 +1,6 @@
-package com.oleksandr.Creational.Builder.Builders;
+package com.oleksandr.Creational.Builder.FirstExample.Builders;
 
-import com.oleksandr.Creational.Builder.Products.Product;
+import com.oleksandr.Creational.Builder.FirstExample.Products.Product;
 
 public interface Builder <T extends Product> {
     void reset();

@@ -1,6 +1,6 @@
-package com.oleksandr.Creational.Builder.Builders;
+package com.oleksandr.Creational.Builder.FirstExample.Builders;
 
-import com.oleksandr.Creational.Builder.Products.Product2;
+import com.oleksandr.Creational.Builder.FirstExample.Products.Product2;
 
 public class ConcreteBuilder2 implements Builder<Product2> {
     private Product2 product2;

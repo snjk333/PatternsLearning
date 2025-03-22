@@ -1,7 +1,7 @@
-package com.oleksandr.Creational.Builder.Director;
+package com.oleksandr.Creational.Builder.FirstExample.Director;
 
-import com.oleksandr.Creational.Builder.Builders.Builder;
-import com.oleksandr.Creational.Builder.Products.Product;
+import com.oleksandr.Creational.Builder.FirstExample.Builders.Builder;
+import com.oleksandr.Creational.Builder.FirstExample.Products.Product;
 
 
 public class Director {
