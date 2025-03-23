@@ -24,7 +24,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ❌ Iterator  
 ❌ Mediator  
 ❌ Memento  
-❌ Observer  
+✅ Observer  
 ❌ State  
 ❌ Strategy  
 ❌ Template Method  
