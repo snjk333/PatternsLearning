@@ -16,7 +16,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Decorator  
 ✅ Facade  
 ❌ Flyweight  
-❌ Proxy  
+✅ Proxy  
 
 ## Behavioral Patterns
 ✅ Chain of Responsibility  
