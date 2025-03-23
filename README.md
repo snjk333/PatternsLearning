@@ -22,7 +22,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Chain of Responsibility  
 ❌ Command  
 ❌ Iterator  
-❌ Mediator  
+✅ Mediator  
 ❌ Memento  
 ✅ Observer  
 ❌ State  
