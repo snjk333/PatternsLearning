@@ -27,5 +27,5 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ✅ Observer  
 ❌ State  
 ❌ Strategy  
-❌ Template Method  
+✅ Template Method  
 ❌ Visitor
