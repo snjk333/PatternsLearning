@@ -23,7 +23,7 @@ Hello! This is my repository for personal learning of design patterns. I'm using
 ❌ Command  
 ❌ Iterator  
 ✅ Mediator  
-❌ Memento  
+✅ Memento  
 ✅ Observer  
 ❌ State  
 ❌ Strategy  
